@@ -61,19 +61,19 @@
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.13.3, )"
+              "version": "[3.13.2, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.1.0, )"
             },
-            "SpecFlow.Plus.LivingDocPlugin": {
+            "SpecFlow": {
               "target": "Package",
-              "version": "[3.9.57, )"
+              "version": "[3.9.74, )"
             },
-            "SpecRun.SpecFlow": {
+            "SpecFlow.NUnit": {
               "target": "Package",
-              "version": "[3.9.7, )"
+              "version": "[3.9.74, )"
             }
           },
           "imports": [
@@ -159,6 +159,10 @@
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             },
             "System.ValueTuple": {
               "target": "Package",
