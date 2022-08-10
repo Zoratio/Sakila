@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sakilabackenddbserver/databases/SakilaBackend_db",
+      "type": "mssql.azure",
+      "connectionId": "Sakiladb",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

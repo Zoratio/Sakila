@@ -46,7 +46,9 @@ namespace SakilaBackend.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseMySQL("Server=localhost;Database=sakila;user=root;password=root");
+                //optionsBuilder.UseMySQL("Server=localhost;Database=sakila;user=root;password=root");
+                //optionsBuilder.UseMySQL("Server=tcp:sakilabackenddbserver.database.windows.net,1433;Initial Catalog=SakilaBackend_db;Persist Security Info=False;User ID=tbromley@softwareinstitute.com@sakilabackenddbserver;Password=" + System.Environment.GetEnvironmentVariable("DATABASE_PASSWORD"));
+                optionsBuilder.UseMySQL("Server=sakilablockbuster.mysql.database.azure.com;database=sakila;User=tbromley@sakilablockbuster;Password=" + System.Environment.GetEnvironmentVariable("DATABASE_PASSWORD"));
             }
         }
 

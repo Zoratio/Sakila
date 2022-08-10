@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data;
+
 
 namespace SakilaBackend.Controllers
 {
@@ -141,6 +143,41 @@ namespace SakilaBackend.Controllers
             {
                 Console.WriteLine("Actor with that ID does not exist");
             }
-        }       
+        }
+
+        //[HttpGet("/getactorfilms/{actorId:int}")]    //error handling for if the id does not exist
+        //public IQueryable GetActorFilms(int actorId)
+        //{
+        //    try
+        //    {
+        //        IQueryable actor;
+        //        using (var context = new sakilaContext())
+        //        {
+        //            ObjectSet<Film> films = context.Films;
+        //            ObjectSet<FilmActor> filmActors = context.FilmActors;
+        //            actor = context.Films
+        //                .GroupJoin(
+        //                    context.FilmActors,
+        //                    a = > film.A
+        //                    )
+
+
+        //                //Where(a => a.ActorId.Equals((short)actorId)).
+        //                //Select(a => new
+        //                //{
+        //                //    a.FirstName,
+        //                //    a.LastName
+        //                //}).
+        //                //ToList().
+        //                //AsQueryable();
+        //        }
+        //        return actor;
+        //    }
+        //    catch
+        //    {
+        //        Console.WriteLine("actorId does not exist");
+        //        return null;
+        //    }
+        //}
     }
 }
