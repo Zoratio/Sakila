@@ -14,7 +14,7 @@ namespace SakilaBackend.Controllers
     [Route("[controller]")]
     public class ActorController : ControllerBase
     {
-        [HttpGet("/getallactors")]
+        [HttpGet("/getAllActors")]
         public List<Actor> GetActors()
         {
             List<Actor> actors;
@@ -25,7 +25,7 @@ namespace SakilaBackend.Controllers
             return actors;
         }
         
-        [HttpGet("/getnamesofallactors")]
+        [HttpGet("/getNamesOfAllActors")]
         public IQueryable GetActorsByName()
         {
             IQueryable actors;
@@ -43,7 +43,7 @@ namespace SakilaBackend.Controllers
             return actors;
         }
 
-        [HttpGet("/getactor/{actorId:int}")]    //error handling for if the id does not exist
+        [HttpGet("/getActor/{actorId:int}")]    //error handling for if the id does not exist
         public IQueryable GetActor(int actorId)
         {
             try
@@ -70,7 +70,7 @@ namespace SakilaBackend.Controllers
             }
         }
 
-        [HttpGet("/getactorid/{firstname=string}/{lastname=string}")]
+        [HttpGet("/getActorId/{firstname=string}/{lastname=string}")]
         public short GetActorId(string firstname, string lastname)
         {
             try
@@ -92,7 +92,7 @@ namespace SakilaBackend.Controllers
             }
         }
 
-        [HttpPut("/setnewactor/{firstname=string}/{lastname=string}")]
+        [HttpPut("/setNewActor/{firstname=string}/{lastname=string}")]
         public void PutActor(string firstname, string lastname)
         {
             using (var context = new sakilaContext())
@@ -105,17 +105,18 @@ namespace SakilaBackend.Controllers
             }
         }
 
-        [HttpPatch("/updateexistingactorname/{originalfirstname=string}/{newfirstname=string}")]    //error handling for if the original name does not exist
-        public void PatchActorName(string originalfirstname, string newfirstname)
+        [HttpPut("/updateExistingActorName/{originalfirstname=string}/{originallastname=string}/{newfirstname=string}/{newlastname=string}")]    //what if there are multiple actors with the same first name? need to take into consideration the first and last
+        public void PutActorName(string originalfirstname, string originallastname, string newfirstname, string newlastname)
         {
             try
             {
                 using (var context = new sakilaContext())
                 {
                     Actor actor = context.Actors.
-                        Where(a => a.FirstName.Equals(originalfirstname)).
+                        Where(a => a.FirstName.Equals(originalfirstname) && (a.LastName.Equals(originallastname))).
                         First();
                     actor.FirstName = newfirstname;
+                    actor.LastName = newlastname;
                     context.SaveChanges();
                 }
             }
@@ -125,7 +126,7 @@ namespace SakilaBackend.Controllers
             }
         }
 
-        [HttpDelete("/deleteactor/{actorId:int}")]    //error handling for if the id does not exist
+        [HttpDelete("/deleteActor/{actorId:int}")]    //error handling for if the id does not exist
         public void DeleteActorName(int actorId)
         {
             try

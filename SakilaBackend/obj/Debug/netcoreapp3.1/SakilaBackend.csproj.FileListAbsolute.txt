@@ -148,3 +148,4 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netco
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.pdb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.genruntimeconfig.cache
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.csproj.AssemblyReference.cache

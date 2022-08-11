@@ -31,6 +31,7 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\net
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Primitives.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Identity.Client.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.TestPlatform.CommunicationUtilities.dll
@@ -46,6 +47,9 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\net
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\NuGet.Frameworks.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\BouncyCastle.Crypto.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\System.Collections.Immutable.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\System.ComponentModel.Annotations.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\PubTmp\Out\System.Configuration.ConfigurationManager.dll

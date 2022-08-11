@@ -144,3 +144,8 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\net
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\SakilaBackend.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\SakilaBackend.pdb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\SakilaBackend.genruntimeconfig.cache
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Release\netcoreapp3.1\SakilaBackend.MvcApplicationPartsAssemblyInfo.cs
