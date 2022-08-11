@@ -66,7 +66,7 @@ namespace Sakila.Testing.Steps
             response = await _client.PutAsync(url, data);
             //response = await _client.GetAsync(url);
             //url = $@"https://sakilabackend20220809145429.azurewebsites.net/getActor/200";
-            response = await _client.GetAsync(url);
+            //response = await _client.GetAsync(url);
             var responseString = await response.Content.ReadAsStringAsync();
             model = JsonConvert.DeserializeObject<IEnumerable<Actor>>(responseString);
         }
