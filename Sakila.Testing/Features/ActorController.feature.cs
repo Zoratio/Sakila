@@ -148,6 +148,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 21
  testRunner.When(string.Format("I make a put request to updateExistingActorName {0} {1} {2} {3}", originalfirstname, originallastname, newfirstname, newlastname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 22
+ testRunner.Then("the response status code is \"200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
 #line 23
  testRunner.Then(string.Format("the first name {0} and last name {1} of actor is equals to the names entered", newfirstname, newlastname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

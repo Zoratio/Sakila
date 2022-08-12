@@ -19,7 +19,7 @@ Scenario: Given actor ID, check the first and last names are correct
 Scenario: Update an actor and use its ID to check that the names in that index are now changed
 	Given I am a user interacting with the database api
 	When I make a put request to updateExistingActorName <originalfirstname> <originallastname> <newfirstname> <newlastname>
-	#Then the response status code is "200"
+	Then the response status code is "200"
 	Then the first name <newfirstname> and last name <newlastname> of actor is equals to the names entered
 
 Examples:

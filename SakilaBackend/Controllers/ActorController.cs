@@ -106,24 +106,29 @@ namespace SakilaBackend.Controllers
         }
 
         [HttpPut("/updateExistingActorName/{originalfirstname=string}/{originallastname=string}/{newfirstname=string}/{newlastname=string}")]    //what if there are multiple actors with the same first name? need to take into consideration the first and last
-        public void PutActorName(string originalfirstname, string originallastname, string newfirstname, string newlastname)
+        public Actor PutActorName(string originalfirstname, string originallastname, string newfirstname, string newlastname)
         {
-            try
-            {
-                using (var context = new sakilaContext())
-                {
-                    Actor actor = context.Actors.
-                        Where(a => a.FirstName.Equals(originalfirstname) && (a.LastName.Equals(originallastname))).
-                        First();
-                    actor.FirstName = newfirstname;
-                    actor.LastName = newlastname;
-                    context.SaveChanges();
-                }
-            }
-            catch
-            {
-                Console.WriteLine("Actor with that name does not exist");
-            }
+            var context = new sakilaContext();
+            Actor actor = context.Actors.
+                    Where(a => a.FirstName.Equals(originalfirstname) && (a.LastName.Equals(originallastname))).
+                    First();
+            actor.FirstName = newfirstname;
+            actor.LastName = newlastname;
+            context.SaveChanges();
+            return actor;
+            //try
+            //{
+                
+
+            //    //using (var context = new sakilaContext())
+            //    //{
+                    
+            //    //}
+            //}
+            //catch
+            //{
+            //    Console.WriteLine("Actor with that name does not exist");
+            //}
         }
 
         [HttpDelete("/deleteActor/{actorId:int}")]    //error handling for if the id does not exist
