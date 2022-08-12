@@ -24,7 +24,7 @@ namespace SakilaBackend.Controllers
             }
             return actors;
         }
-        
+
         [HttpGet("/getNamesOfAllActors")]
         public IQueryable GetActorsByName()
         {
@@ -108,27 +108,25 @@ namespace SakilaBackend.Controllers
         [HttpPut("/updateExistingActorName/{originalfirstname=string}/{originallastname=string}/{newfirstname=string}/{newlastname=string}")]    //what if there are multiple actors with the same first name? need to take into consideration the first and last
         public Actor PutActorName(string originalfirstname, string originallastname, string newfirstname, string newlastname)
         {
-            var context = new sakilaContext();
-            Actor actor = context.Actors.
-                    Where(a => a.FirstName.Equals(originalfirstname) && (a.LastName.Equals(originallastname))).
-                    First();
-            actor.FirstName = newfirstname;
-            actor.LastName = newlastname;
-            context.SaveChanges();
-            return actor;
-            //try
-            //{
-                
 
-            //    //using (var context = new sakilaContext())
-            //    //{
-                    
-            //    //}
-            //}
-            //catch
-            //{
-            //    Console.WriteLine("Actor with that name does not exist");
-            //}
+            try
+            {
+                using (var context = new sakilaContext())
+                {
+                    Actor actor = context.Actors.
+                            Where(a => a.FirstName.Equals(originalfirstname) && (a.LastName.Equals(originallastname))).
+                            First();
+                    actor.FirstName = newfirstname;
+                    actor.LastName = newlastname;
+                    context.SaveChanges();
+                    return actor;
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Actor with that name does not exist");
+                return null;
+            }
         }
 
         [HttpDelete("/deleteActor/{actorId:int}")]    //error handling for if the id does not exist
@@ -151,39 +149,59 @@ namespace SakilaBackend.Controllers
             }
         }
 
-        //[HttpGet("/getactorfilms/{actorId:int}")]    //error handling for if the id does not exist
-        //public IQueryable GetActorFilms(int actorId)
-        //{
-        //    try
-        //    {
-        //        IQueryable actor;
-        //        using (var context = new sakilaContext())
-        //        {
-        //            ObjectSet<Film> films = context.Films;
-        //            ObjectSet<FilmActor> filmActors = context.FilmActors;
-        //            actor = context.Films
-        //                .GroupJoin(
-        //                    context.FilmActors,
-        //                    a = > film.A
-        //                    )
+        [HttpGet("/getallactorfilms")]
+        public dynamic GetAllActorFilms()
+        {
+            using (var context = new sakilaContext())
+            {
+                object AnonymousReturn()
+                {
+                    return new
+                    {
+                        allActorfilms = (from actor in context.Actors
+                                         join filmactor in context.FilmActors
+                                         on actor.ActorId equals filmactor.ActorId
+                                         join film in context.Films
+                                         on filmactor.FilmId equals film.FilmId
+                                         select new
+                                         {
+                                             ActorFirstName = actor.FirstName,
+                                             ActorLastName = actor.LastName,
+                                             Title = film.Title,
+                                             Description = film.Description
+                                         }).ToList()
+                    };
+                }
+                return AnonymousReturn();
+            }
+        }
 
-
-        //                //Where(a => a.ActorId.Equals((short)actorId)).
-        //                //Select(a => new
-        //                //{
-        //                //    a.FirstName,
-        //                //    a.LastName
-        //                //}).
-        //                //ToList().
-        //                //AsQueryable();
-        //        }
-        //        return actor;
-        //    }
-        //    catch
-        //    {
-        //        Console.WriteLine("actorId does not exist");
-        //        return null;
-        //    }
-        //}
+        [HttpGet("/getactorfilms/{actorId:int}")]
+        public dynamic GetActorFilms(int actorId)
+        {
+            using (var context = new sakilaContext())
+            {
+                object AnonymousReturn()
+                {
+                    return new
+                    {
+                        actorFilms = (from actor in context.Actors
+                                      join filmactor in context.FilmActors
+                                      on actor.ActorId equals filmactor.ActorId
+                                      join film in context.Films
+                                      on filmactor.FilmId equals film.FilmId
+                                      where (actor.ActorId == actorId)
+                                      select new
+                                      {
+                                          ActorFirstName = actor.FirstName,
+                                          ActorLastName = actor.LastName,
+                                          Title = film.Title,
+                                          Description = film.Description
+                                      }).ToList()
+                    };
+                }               
+                return AnonymousReturn();
+            }            
+        }
     }
 }
