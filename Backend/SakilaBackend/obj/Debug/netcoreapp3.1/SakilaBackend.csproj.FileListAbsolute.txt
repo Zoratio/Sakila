@@ -300,3 +300,5 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Deb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.pdb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.genruntimeconfig.cache
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
