@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import SeparateActor from './components/SeparateActor'
 import SeparateGenre from './components/SeparateGenre'
+import './App.css'
 
 export default function Page() {
     // these are the states for the function
