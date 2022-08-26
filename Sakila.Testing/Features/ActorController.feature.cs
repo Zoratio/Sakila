@@ -110,53 +110,6 @@ this.ScenarioInitialize(scenarioInfo);
             }
             this.ScenarioCleanup();
         }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Update an actor and use its ID to check that the names in that index are now chan" +
-            "ged")]
-        [NUnit.Framework.CategoryAttribute("2")]
-        [NUnit.Framework.TestCaseAttribute("THORA", "TEMPLE", "TAYLOR", "BROMLEY", null)]
-        public void UpdateAnActorAndUseItsIDToCheckThatTheNamesInThatIndexAreNowChanged(string originalfirstname, string originallastname, string newfirstname, string newlastname, string[] exampleTags)
-        {
-            string[] @__tags = new string[] {
-                    "2"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            argumentsOfScenario.Add("originalfirstname", originalfirstname);
-            argumentsOfScenario.Add("originallastname", originallastname);
-            argumentsOfScenario.Add("newfirstname", newfirstname);
-            argumentsOfScenario.Add("newlastname", newlastname);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Update an actor and use its ID to check that the names in that index are now chan" +
-                    "ged", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 19
-this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 20
- testRunner.Given("I am a user interacting with the database api", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 21
- testRunner.When(string.Format("I make a put request to updateExistingActorName {0} {1} {2} {3}", originalfirstname, originallastname, newfirstname, newlastname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 22
- testRunner.Then("the response status code is \"200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 23
- testRunner.Then(string.Format("the first name {0} and last name {1} of actor is equals to the names entered", newfirstname, newlastname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
     }
 }
 #pragma warning restore

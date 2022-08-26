@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FXzvBdHv7jsb0deg29oZ7c93/lTaP3ggXC8q1jd16Erf9R0DdUTJJvYsHJAwWngHoAVBz7KaVPggSY2DyMxE4Q==",
+  "dgSpecHash": "qOmPEt5CPkolBhlnU+NijWTh7MqTUhOCRkVu0BInx3WnOUmJbMI0teMAZW5XFzYyeLA6oqTO8oMqOgXgC/LwRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\taylo\\IdeaProjects\\Training\\SakilaBackend\\Backend\\Sakila.Testing\\Sakila.Testing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taylo\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\taylo\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
+    "C:\\Users\\taylo\\.nuget\\packages\\coverlet.msbuild\\3.1.2\\coverlet.msbuild.3.1.2.nupkg.sha512",
     "C:\\Users\\taylo\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",
     "C:\\Users\\taylo\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
     "C:\\Users\\taylo\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",

@@ -149,15 +149,15 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netco
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.pdb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.genruntimeconfig.cache
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.csproj.AssemblyReference.cache
-C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\testhost.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
-C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\SakilaBackend.exe
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\SakilaBackend.deps.json
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\SakilaBackend.runtimeconfig.json
@@ -171,6 +171,7 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Deb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
@@ -181,6 +182,7 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Deb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -285,7 +287,6 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Deb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.csproj.AssemblyReference.cache
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.AssemblyInfoInputs.cache
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.AssemblyInfo.cs
@@ -300,5 +301,4 @@ C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Deb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.dll
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.pdb
 C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.genruntimeconfig.cache
-C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\taylo\IdeaProjects\Training\SakilaBackend\Backend\SakilaBackend\obj\Debug\netcoreapp3.1\SakilaBackend.csproj.AssemblyReference.cache

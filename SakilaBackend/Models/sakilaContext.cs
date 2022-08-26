@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace SakilaBackend.Models
 {
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     public partial class sakilaContext : DbContext
     {
         public sakilaContext()
@@ -18,28 +19,51 @@ namespace SakilaBackend.Models
         }
 
         public virtual DbSet<Actor> Actors { get; set; }
+        
         public virtual DbSet<ActorInfo> ActorInfos { get; set; }
+
         public virtual DbSet<Address> Addresses { get; set; }
+
         public virtual DbSet<Category> Categories { get; set; }
+
         public virtual DbSet<City> Cities { get; set; }
+
         public virtual DbSet<Country> Countries { get; set; }
+
         public virtual DbSet<Customer> Customers { get; set; }
+
         public virtual DbSet<CustomerList> CustomerLists { get; set; }
+
         public virtual DbSet<Film> Films { get; set; }
+
         public virtual DbSet<FilmActor> FilmActors { get; set; }
+
         public virtual DbSet<FilmCategory> FilmCategories { get; set; }
+
         public virtual DbSet<FilmList> FilmLists { get; set; }
+
         public virtual DbSet<FilmText> FilmTexts { get; set; }
+
         public virtual DbSet<Inventory> Inventories { get; set; }
+
         public virtual DbSet<Language> Languages { get; set; }
+
         public virtual DbSet<NicerButSlowerFilmList> NicerButSlowerFilmLists { get; set; }
+
         public virtual DbSet<Payment> Payments { get; set; }
+
         public virtual DbSet<Rental> Rentals { get; set; }
+
         public virtual DbSet<SalesByFilmCategory> SalesByFilmCategories { get; set; }
+
         public virtual DbSet<SalesByStore> SalesByStores { get; set; }
+
         public virtual DbSet<StaffList> StaffLists { get; set; }
+
         public virtual DbSet<Store> Stores { get; set; }
+
         public virtual DbSet<staff> staff { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -54,8 +78,10 @@ namespace SakilaBackend.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.Entity<Actor>(entity =>
             {
+
                 entity.ToTable("actor");
 
                 entity.HasIndex(e => e.LastName, "idx_actor_last_name");

@@ -73,7 +73,7 @@ namespace Sakila.Testing.Steps
         {
             Actor actor = model;
             Assert.AreEqual(actor.FirstName, expectedFirstName);
-            Assert.AreEqual(actor.LastName, expectedLastName);       
+            Assert.AreEqual(actor.LastName, expectedLastName);
         }
     }
 }

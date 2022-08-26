@@ -42,6 +42,7 @@
           "SpecFlow": "3.9.74",
           "SpecFlow.NUnit": "3.9.74",
           "coverlet.collector": "3.0.2",
+          "coverlet.msbuild": "3.1.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -310,6 +311,7 @@
         }
       },
       "coverlet.collector/3.0.2": {},
+      "coverlet.msbuild/3.1.2": {},
       "FluentAssertions/6.2.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0"
@@ -4103,6 +4105,13 @@
       "sha512": "sha512-iBvPAIDaI7j/iMx/DzCGCJ3rdiOmel9VINEfaTiBv/NKIGHOP4X3hqc6Q1wgMtArEshlhXexQknP17SK4vXb1w==",
       "path": "coverlet.collector/3.0.2",
       "hashPath": "coverlet.collector.3.0.2.nupkg.sha512"
+    },
+    "coverlet.msbuild/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QhM0fnDtmIMImY7oxyQ/kh1VYtRxPyRVeLwRUGuUvI6Xp83pSYG9gerK8WgJj4TzUl7ISziADUGtIWKhtlbkbQ==",
+      "path": "coverlet.msbuild/3.1.2",
+      "hashPath": "coverlet.msbuild.3.1.2.nupkg.sha512"
     },
     "FluentAssertions/6.2.0": {
       "type": "package",

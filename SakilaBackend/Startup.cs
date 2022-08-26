@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace SakilaBackend
 {
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     public class Startup
     {
         public Startup(IConfiguration configuration)
